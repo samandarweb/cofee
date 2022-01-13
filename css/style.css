@@ -131,7 +131,6 @@ body {
 .collection {
     background: url('../images/Rectangle.png');
     margin: 20px;
-    
     padding: 50px 0;
 }
 .collection-container {
@@ -201,4 +200,71 @@ body {
     position: absolute;
     top: 1300px;
     left: -180px;
+}
+/* choose section */
+.choose {
+    margin: 0 20px 20px;
+    background: url('../images/Rectangle.png') #C69561;
+    padding: 50px 0;
+    
+}
+.choose-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 703px;
+}
+.choose-content {
+    text-align: center;
+    margin-bottom: 60px;
+    color: var(--white-color);
+}
+.choose-title {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 10px;
+}
+.text {
+    width: 581px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0;
+}
+.choose-items {
+    display: flex;
+    position: absolute;
+    top: 330px;
+}
+.choose-item {
+    padding: 10px;
+}
+.choose-icon-image {
+    position: absolute;
+    top: -45px;
+    left:-45px;
+}
+.choose-image {
+    width: 400px;
+    margin-bottom: 28px;
+}
+.choose-item-title {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.choose-item-text {
+    width: 377px;
+    color: #333333;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 80px;
 }
